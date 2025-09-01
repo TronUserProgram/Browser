@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/skdev/browser/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/skdev/browser/MainActivity.kt b/app/src/main/java/com/skdev/browser/MainActivity.kt
+--- a/app/src/main/java/com/skdev/browser/MainActivity.kt
++++ b/app/src/main/java/com/skdev/browser/MainActivity.kt	(date 1756523950934)
+@@ -164,7 +164,7 @@
+             }
+         })
+     }
+-
++    
+ 
+     private fun closePopup() {
+         popupDialog?.dismiss()
