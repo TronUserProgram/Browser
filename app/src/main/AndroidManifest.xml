@@ -64,7 +64,7 @@
         <!-- FIX: Override for the hwsecurity library's BroadcastReceiver -->
         <receiver
             android:name="de.cotech.hw.internal.transport.usb.UsbDeviceBroadcastReceiver"
-            android:exported="true"
+            android:exported="false"
             tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />

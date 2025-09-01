@@ -23,6 +23,9 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 hwsecurity = { group = "com.github.cotechde", name = "hwsecurity", version.ref = "hwsecurity" }
 androidx-webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+hwsecurity-intent-usb = { group = "com.github.cotechde", name = "hwsecurity-intent-usb", version.ref = "hwsecurity" }
+hwsecurity-intent-nfc = { group = "com.github.cotechde", name = "hwsecurity-intent-nfc", version.ref = "hwsecurity" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

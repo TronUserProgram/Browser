@@ -9,6 +9,8 @@ import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import de.cotech.hw.fido2.WebViewWebauthnBridge
 import de.cotech.hw.fido2.ui.WebauthnDialogOptions
+import de.cotech.hw.intent.usb.R as hwsecurityUsb
+import de.cotech.hw.intent.nfc.R as hwsecurityNfc
 
 class MainActivity : AppCompatActivity() {
 

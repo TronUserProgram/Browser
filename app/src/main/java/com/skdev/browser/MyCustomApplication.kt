@@ -13,6 +13,8 @@ class MyCustomApplication : Application() {
         val securityKeyManager = SecurityKeyManager.getInstance()
         val config = SecurityKeyManagerConfig.Builder()
             .setEnableDebugLogging(BuildConfig.DEBUG)
+            // ADD THIS LINE to prevent the library from managing MainActivity
+            .addExcludedActivityClass(MainActivity::class.java)
             .build()
         securityKeyManager.init(this, config)
     }

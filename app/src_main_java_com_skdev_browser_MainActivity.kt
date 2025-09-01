@@ -1,5 +1,7 @@
 package com.skdev.browser
 
+// This is an old version just put it in a file for now...
+
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.os.Bundle

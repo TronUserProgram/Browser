@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.skdev.browser"
         minSdk = 29
-        targetSdk = 36
+        targetSdk = 30
         versionCode = 1
         versionName = "1.0"
 
